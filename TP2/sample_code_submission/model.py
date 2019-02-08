@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.base import BaseEstimator
 
-class oneR(BaseEstimator):
+class model(BaseEstimator):
     ''' One Rule classifier '''
     def __init__(self):
         ''' The "constructor" initializes the parameters '''
