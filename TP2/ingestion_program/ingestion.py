@@ -206,7 +206,7 @@ if __name__=="__main__" and debug_mode<4:
         you_must_train=1
         modelname = os.path.join(submission_dir,basename)
         if os.path.isfile(modelname + '_model.pickle'):
-            M = M.load(modelname)
+            #M = M.load(modelname)
             you_must_train=0
             vprint( verbose,  "[+] Model reloaded, no need to train!")
             
